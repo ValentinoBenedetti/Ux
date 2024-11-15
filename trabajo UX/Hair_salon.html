@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Hair_salon.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=swap">
+    <title>Barbería UX</title>
+    <link rel="icon" href="imagenes/gyg.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+</head>
+<body>
+    <header>
+        <img src="imagenes/logogloss.svg" alt="Logo de HairSalon" />
+        <nav class="options">
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Services</a>
+            <a href="#">Pricing</a>
+            <a href="#">Appointment</a>
+            <a href="#">Contact</a>
+        </nav>
+
+        <div class="icons">
+            <!-- Ícono de carrito -->
+            <div class="icon">
+                <span class="material-symbols-outlined" style="font-size: 15px; color: #050505;">
+                    shopping_cart
+                </span>
+            </div>
+
+            <!-- Ícono de lupa -->
+            <div class="icon">
+                <span class="material-symbols-outlined" style="font-size: 15px; color: #050505;">
+                    search
+                </span>
+            </div>
+        </div>
+
+        <button class="sign-up">Sign Up</button>
+
+        <div class="header-content">
+            <h1>Services</h1>
+            <p>Home • Services</p>
+          </div>
+    </header>
+
+    <section class="services">
+        <h2>Our Services</h2>
+        <p>Borem ipsum dolor sit amet, consectetur adipiscin elit. Nunc vulputate libero amet, consectetur adipiscin.</p>
+        <div class="services-grid">
+            <div class="service-item">
+                <img src="imagenes/haircut.svg" alt="Hair Cut">
+                Hair Cut
+            </div>
+            <div class="service-item">
+                <img src="imagenes/shaver.svg" alt="Shaving">
+                Shaving
+            </div>
+            <div class="service-item">
+                <img src="imagenes/hairdye.svg" alt="Hair Dye">
+                Hair Dye
+            </div>
+            <div class="service-item">
+                <img src="imagenes/facial.svg" alt="Facial">
+                Facial
+            </div>
+            <div class="service-item">
+                <img src="imagenes/keratin.svg" alt="Keratin Treatment">
+                Keratin Treatment
+            </div>
+            <div class="service-item">
+                <img src="imagenes/hairremoval.svg" alt="Hair Removal">
+                Hair Removal
+            </div>
+            <div class="service-item">
+                <img src="imagenes/hairtreatment.svg" alt="Hair Treatment">
+                Hair Treatment
+            </div>
+            <div class="service-item">
+                <img src="imagenes/wedding.svg" alt="Wedding Package">
+                Wedding Package
+            </div>
+        </div>
+    </section>
+
+    <section id="packages">
+        <h2>Our Packages</h2>
+        <p>Choose the option that fits you the best</p>
+        <div class="package-cards">
+            <!-- Paquete 1 -->
+            <div class="package-card">
+                <h3>Grooming Package</h3>
+                <p class="package-price">$499</p>
+                <ul>
+                    <li><img src="imagenes/check.svg" alt="Check" class="check-icon"/>Hair Cut of Your Choice</li>
+                    <li><img src="imagenes/check.svg" alt="Check" class="check-icon">Beard Style / Shaving for Men</li>
+                    <li><img src="imagenes/check.svg" alt="Check" class="check-icon">Facial Treatment</li>
+                    <li><img src="imagenes/check.svg" alt="Check" class="check-icon">Hair Treatment / Keratin Treatment Suited for You</li>
+                </ul>
+                <button class="choose-plan">Choose Plan</button>
+            </div>
+    
+    
+            <!-- Paquete 2 -->
+            <div class="package-card">
+                <h3>Grooming Package</h3>
+                <p class="package-price">$699</p>
+                <ul>
+                    <li><img src="imagenes/check.svg" alt="Check" class="check-icon"/>Hair Cut of Your Choice</li>
+                    <li><img src="imagenes/check.svg" alt="Check" class="check-icon"/>Beard Style / Shaving for Men</li>
+                    <li><img src="imagenes/check.svg" alt="Check" class="check-icon"/>Facial Treatment</li>
+                    <li><img src="imagenes/check.svg" alt="Check" class="check-icon"/>Hair Treatment / Keratin Treatment Suited for You</li>
+                </ul>
+                <button class="choose-plan">Choose Plan</button>
+            </div>
+    
+            <!-- Paquete 3 -->
+            <div class="package-card">
+                <h3>Wedding Package</h3>
+                <p class="package-price">$799</p>
+                <ul>
+                    <li><img src="imagenes/check.svg" alt="Check" class="check-icon"/>Hair Cut for Wedding</li>
+                    <li><img src="imagenes/check.svg" alt="Check" class="check-icon"/>Beard Style / Shaving for Men</li>
+                    <li><img src="imagenes/check.svg" alt="Check" class="check-icon"/>Facial Treatment </li>
+                    <li><img src="imagenes/check.svg" alt="Check" class="check-icon"/>Hair Treatment / Keratin Treatment for Wedding</li>
+                </ul>
+                <button class="choose-plan">Choose Plan</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="appointment">
+        <h2>Make An Appointment</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce condimentum justo sit amet dui feugiat, ut consectetur lacus consectetur.</p>
+        
+        <!-- Calendario -->
+        <div class="calendar">
+            <div class="calendar-header">
+              <span>Sep 2024</span>
+            </div>
+            <div class="calendar-weekdays">
+              <span>Sun</span>
+              <span>Mon</span>
+              <span>Tue</span>
+              <span>Wed</span>
+              <span>Thu</span>
+              <span>Fri</span>
+              <span>Sat</span>
+            </div>
+            <div class="calendar-days">
+              <span class="empty"></span>
+              <span class="empty"></span>
+              <span class="empty"></span>
+              <span>1</span>
+              <span>2</span>
+              <span>3</span>
+              <span>4</span>
+              <span>5</span>
+              <span>6</span>
+              <span>7</span>
+              <span>8</span>
+              <span>9</span>
+              <span>10</span>
+              <span>11</span>
+              <span>12</span>
+              <span>13</span>
+              <span>14</span>
+              <span>15</span>
+              <span>16</span>
+              <span>17</span>
+              <span>18</span>
+              <span>19</span>
+              <span>20</span>
+              <span>21</span>
+              <span>22</span>
+              <span>23</span>
+              <span>24</span>
+              <span>25</span>
+              <span>26</span>
+              <span>27</span>
+              <span>28</span>
+              <span>29</span>
+              <span>30</span>
+            </div>
+          </div>
+        
+        <!-- Selección de Hora -->
+        <h3>Select A Time</h3>
+        <div class="time-slots">
+            <button>8:30 am - 9:30 am</button>
+            <button>9:30 am - 10:30 am</button>
+            <button>10:30 am - 11:30 am</button>
+            <button>11:30 am - 12:30 pm</button>
+        </div>
+    
+        <!-- Formulario de Cita -->
+        <form class="appointment-form">
+            <input type="text" id="name" name="name" placeholder="Enter Your Name *" required>
+            <input type="email" id="email" name="email" placeholder="Enter Your Email *" required>
+            <input type="tel" id="phone" name="phone" placeholder="Enter Phone Number *" required>
+            <select id="service" name="service" required>
+                <option value="">Select Service</option>
+                <option value="haircut">Haircut</option>
+                <option value="beard-trim">Beard Trim</option>
+                <option value="facial">Facial Treatment</option>
+                <option value="package">Grooming Package</option>
+            </select>
+            <button type="submit" class="appointment-button">Book Appointment</button>
+        </form>
+    </section>
+    
+    <section id="stay-updated">
+        <h2>Stay Updated</h2>
+        <p>Sign up to receive the latest news and updates from us.</p>
+        <div class="subscription-form">
+            <input type="email" placeholder="Enter Your Email" />
+            <button type="submit">Subscribe</button>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="seccion1">
+            <img src="imagenes/logogloss.svg" alt="Logo" class="logoabajo" />
+    
+            <p class="pseccion1">
+            "Borem ipsum dolor sit amet..."
+            </p>
+    
+            <div class="redesabajo">
+                <img src="imagenes/facebook.svg" alt="Facebook" />
+                <img src="imagenes/twitter.svg" alt="Twitter" />
+                <img src="imagenes/linkedin.svg" alt="LinkedIn" />
+            </div>
+        </div>
+    
+        <div class="seccion2">
+            <h2 class="titulo2">Services</h2>
+            <div class="subtitulos2">
+                <p>Hair Cut</p>
+                <p>Hair Dye</p>
+                <p>Shaving</p>
+                <p>Facial</p>
+                <p>Massage</p>
+            </div>
+        </div>
+    
+        <div class="seccion2_1">
+            <h2 class="titulo2_1">Related Links</h2>
+            <div class="subtitulos2_1">
+                <p>About Us</p>
+                <p>Our Blog</p>
+                <p>Pricing</p>
+                <p>Social Links</p>
+                <p>Contact Us</p>
+            </div>
+        </div>
+    
+        <div class="seccion2_2">
+            <h2 class="titulo2_2">Terms</h2>
+            <div class="subtitulos2_2">
+                <p>Terms & Conditions</p>
+                <p>Privacy Policy</p>
+                <p>Tax Forms</p>
+                <p>FAQs</p>
+            </div>
+        </div>
+    
+        <div class="seccion3">
+            <h2>Contact Us</h2>
+    
+            <div class="ubicacion">
+                <img src="imagenes/ubicacion.svg" alt="ubicacion" />
+                <p>Estrada 638, CdelU Entre Rios</p>
+            </div>
+    
+            <div class="telefono">
+                <img src="imagenes/telefono.svg" alt="telefono" />
+                <p>+54 3442311247</p>
+            </div>
+    
+            <div class="correo">
+                <img src="imagenes/email.svg" alt="correo" />
+                <p>valentinobenedetti9@gmail.com</p>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <hr class="separator" />
+            <p>Copyright © 2023 CryptoVault. All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
